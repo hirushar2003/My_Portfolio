@@ -64,6 +64,20 @@
         height: 300px;
         width: 300px;
     }
+
+    .edu{
+        width: 100%;
+        height: auto;
+    }
+    .stages-main{
+        height: auto;
+    }
+
+    .stage-image>img{
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+    }
 }
 
 
@@ -263,5 +277,11 @@
     .pic-bas>img{
         height: 200px;
         width: 200px;
+    }
+
+    .stage-image>img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
     }
 }
