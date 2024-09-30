@@ -1,41 +1,5 @@
 @media all and (max-width: 800px){
-    .desktop-header{
-        display: none;
-    }
 
-    .mobile-header{
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        height: 15vh;
-        width: 100vw;
-        padding: 1rem 1rem;
-    }
-    .logo{
-        gap: 3px;
-    }
-    .logo>img{
-        height: 25px;
-        width: 25px;
-        border-radius: 100%;
-    }
-    .logo-letters{
-        font-size: 1rem;
-        font-family: "Jua", sans-serif;
-        font-weight: 400;
-    }
-    .menu-bar{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-end;
-    }
-    .menu-bar>img{
-        height: 35px;
-        width: 35px;
-    }
 
     #hero{
         display: none;
@@ -171,6 +135,44 @@
 
 
 @media all and (max-width: 500px) and (min-width: 400px){
+    .desktop-header{
+        display: none;
+    }
+
+    .mobile-header{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        width: 100vw;
+        padding: 1rem 1rem;
+    }
+    .logo{
+        gap: 3px;
+    }
+    .logo>img{
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+    }
+    .logo-letters{
+        font-size: 1rem;
+        font-family: "Jua", sans-serif;
+        font-weight: 400;
+    }
+    .menu-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .menu-bar>img{
+        height: 30px;
+        width: 30px;
+    }
+
     .circle{
         height: 350px;
         width: 350px;
@@ -184,6 +186,44 @@
 }
 
 @media all and (max-width: 399px) and (min-width: 299px){
+    .desktop-header{
+        display: none;
+    }
+
+    .mobile-header{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        width: 100vw;
+        padding: 1rem 1rem;
+    }
+    .logo{
+        gap: 3px;
+    }
+    .logo>img{
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+    }
+    .logo-letters{
+        font-size: 1rem;
+        font-family: "Jua", sans-serif;
+        font-weight: 400;
+    }
+    .menu-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .menu-bar>img{
+        height: 30px;
+        width: 30px;
+    }
+    
     .circle{
         height: 300px;
         width: 300px;
