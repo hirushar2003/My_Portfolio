@@ -78,6 +78,27 @@
         width: 150px;
         border-radius: 100%;
     }
+
+    .skill-main-sec{
+        display: flex;
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+    }
+    .programming-skills{
+        width: 100%;
+    }
+    .programming-skills-topic{
+        width: 90%;
+        align-items: flex-start;
+    }
+
+    .ex-skills{
+        width: 100%;
+    }
 }
 
 
@@ -173,7 +194,7 @@
 
 
 
-@media all and (max-width: 500px) and (min-width: 400px){
+@media all and (max-width: 500px) {
     .desktop-header{
         display: none;
     }
@@ -222,6 +243,17 @@
         align-items: center;
         justify-content: flex-end;
     }
+
+    .skill-logo>img{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .main-bar{
+        height: 0.5rem;
+    }
+
+
 
 }
 
@@ -286,6 +318,86 @@
         width: 100%;
         border-radius: 100%;
     }
+
+    .data-management-main-circle{
+        height: 150px;
+        width: 150px;
+        background-color: black;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .data-management-sub-circle{
+        height: 130px;
+        width: 130px;
+        background-color: #C8ACD6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .communication-main-circle{
+        height: 150px;
+        width: 150px;
+        background-color: black;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .communication-sub-circle{
+        height: 130px;
+        width: 130px;
+        background-color: #C8ACD6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .risk-management-main-circle{
+        height: 150px;
+        width: 150px;
+        background-color: black;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .risk-management-sub-circle{
+        height: 130px;
+        width: 130px;
+        background-color: #C8ACD6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logic-handling-main-circle{
+        height: 150px;
+        width: 150px;
+        background-color: black;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logic-handling-sub-circle{
+        height: 130px;
+        width: 130px;
+        background-color: #C8ACD6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%);*/
+    }
+
 }
 
 
@@ -388,4 +500,5 @@
         align-items: center;
         /*clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%);*/
     }
+
 }
