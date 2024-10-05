@@ -203,6 +203,9 @@ html, body{
     list-style: none;
 }
 
+.edu-mobile{
+    display: none;
+}
 .edu{
     display: flex;
     flex-direction: column;
@@ -281,4 +284,246 @@ html, body{
     height: 100%;
     width: 70%;
     padding: 1rem 1rem;
+}
+
+/*SKILL SECTION*/
+
+#skills{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+}
+.skill-topic{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-main-sec{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.programming-skills{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.ex-skills{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.programming-skills-stages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill-stage-frame{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skill-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skill-logo>img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+}
+
+.skill-progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-bar{
+    height: 1rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    border-radius: 20px;
+}
+.progress-bar{
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.ex-skills-stages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 1.5rem;
+}
+
+.ex-skills-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.ex-skills-lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ex-skills-upper-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    gap: 0.5rem;
+}
+.data-management-main-circle{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-management-sub-circle{
+    height: 220px;
+    width: 220px;
+    background-color: #C8ACD6;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ex-skills-upper-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    gap: 0.5rem;
+}
+
+.communication-main-circle{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.communication-sub-circle{
+    height: 220px;
+    width: 220px;
+    background-color: #C8ACD6;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex-skills-lower-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    gap: 1rem;
+}
+
+.risk-management-main-circle{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.risk-management-sub-circle{
+    height: 220px;
+    width: 220px;
+    background-color: #C8ACD6;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex-skills-lower-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    gap: 1rem;
+}
+
+.logic-handling-main-circle{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logic-handling-sub-circle{
+    height: 220px;
+    width: 220px;
+    background-color: #C8ACD6;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%);*/
 }
