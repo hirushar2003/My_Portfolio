@@ -527,3 +527,110 @@ html, body{
     align-items: center;
     /*clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%);*/
 }
+
+#experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.exp-topic{
+    height: fit-content;
+}
+
+.exp-main-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.exp-finished{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.exp-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.exp-upper-left{
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem 1rem;
+}
+
+.exp-upper-right{
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem 1rem;
+}
+
+.exp-lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.exp-lower-left{
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem 1rem;
+}
+
+.exp-lower-right{
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem 1rem;
+}
+
+.exp-box{
+    height: 225px;
+    width: 225px;
+    border-radius: 100px;
+    background-color: #2E236C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-desc{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-desc-details{
+    width: 60%;
+}
+
+.exp-desc-details>p{
+    text-align: justify;
+}

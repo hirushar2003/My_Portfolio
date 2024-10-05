@@ -1,5 +1,117 @@
-@media all and (max-width: 800px){
+@media all and (max-width: 1100px){
+    .programming-skills-stages{
 
+    }
+
+    .skill-logo>img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 100%;
+    }
+
+    .main-bar{
+        height: 0.7rem;
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: black;
+        border-radius: 20px;
+    }
+
+    .data-management-main-circle{
+        height: 175px;
+        width: 175px;
+        background-color: black;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .data-management-sub-circle{
+        height: 150px;
+        width: 150px;
+        background-color: #C8ACD6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .communication-main-circle{
+        height: 175px;
+        width: 175px;
+        background-color: black;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .communication-sub-circle{
+        height: 150px;
+        width: 150px;
+        background-color: #C8ACD6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .risk-management-main-circle{
+        height: 175px;
+        width: 175px;
+        background-color: black;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .risk-management-sub-circle{
+        height: 150px;
+        width: 150px;
+        background-color: #C8ACD6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logic-handling-main-circle{
+        height: 175px;
+        width: 175px;
+        background-color: black;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logic-handling-sub-circle{
+        height: 150px;
+        width: 150px;
+        background-color: #C8ACD6;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%);*/
+    }
+
+    .exp-box{
+        height: 180px;
+        width: 180px;
+        border-radius: 60px;
+        background-color: #2E236C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media all and (max-width: 800px){
 
     #hero{
         display: none;
@@ -99,99 +211,23 @@
     .ex-skills{
         width: 100%;
     }
+
+    .exp-desc-details{
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+
+    .exp-box{
+        height: 150px;
+        width: 150px;
+        border-radius: 60px;
+        background-color: #2E236C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media all and (max-width: 500px) {
@@ -253,8 +289,17 @@
         height: 0.5rem;
     }
 
+    .exp-main-sec{
+        display: flex;
+        flex-direction: column;
+    }
 
-
+    .exp-finished{
+        width: 100%;
+    }
+    .exp-desc{
+        width: 80%;
+    }
 }
 
 
@@ -398,107 +443,56 @@
         /*clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%);*/
     }
 
+    .exp-desc{
+        width: 100%;
+    }
+
+    .exp-upper-left{
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .exp-upper-right{
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .exp-lower-left{
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .exp-lower-right{
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .exp-box{
+        height: 125px;
+        width: 125px;
+        border-radius: 40px;
+        background-color: #2E236C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
-@media all and (max-width: 1100px){
-    .programming-skills-stages{
-
-    }
-
-    .skill-logo>img{
-        height: 4rem;
-        width: 4rem;
-        border-radius: 100%;
-    }
-
-    .main-bar{
-        height: 0.7rem;
-        width: 10rem;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        background-color: black;
-        border-radius: 20px;
-    }
-
-    .data-management-main-circle{
-        height: 175px;
-        width: 175px;
-        background-color: black;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .data-management-sub-circle{
-        height: 150px;
-        width: 150px;
-        background-color: #C8ACD6;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .communication-main-circle{
-        height: 175px;
-        width: 175px;
-        background-color: black;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .communication-sub-circle{
-        height: 150px;
-        width: 150px;
-        background-color: #C8ACD6;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .risk-management-main-circle{
-        height: 175px;
-        width: 175px;
-        background-color: black;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .risk-management-sub-circle{
-        height: 150px;
-        width: 150px;
-        background-color: #C8ACD6;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logic-handling-main-circle{
-        height: 175px;
-        width: 175px;
-        background-color: black;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .logic-handling-sub-circle{
-        height: 150px;
-        width: 150px;
-        background-color: #C8ACD6;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /*clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%);*/
-    }
-
-}
