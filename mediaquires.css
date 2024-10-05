@@ -483,16 +483,6 @@
         padding: 0.5rem 0.5rem;
     }
 
-    .exp-box{
-        height: 125px;
-        width: 125px;
-        border-radius: 40px;
-        background-color: #2E236C;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 
