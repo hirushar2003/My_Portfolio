@@ -108,6 +108,15 @@
         justify-content: center;
         align-items: center;
     }
+
+    .service-pics-sub{
+        flex-wrap: wrap;
+    }
+    .service-pics-main{
+        height: auto;
+        padding: 0.8rem 0.8rem;
+        margin: 0.5rem ;
+    }
 }
 
 
@@ -226,6 +235,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .service-pics-main{
+        padding: 0.5rem 0.5rem;
     }
 }
 

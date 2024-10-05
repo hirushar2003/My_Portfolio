@@ -634,3 +634,59 @@ html, body{
 .exp-desc-details>p{
     text-align: justify;
 }
+
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.service-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    gap: 1rem;
+}
+
+.service-pics-main{
+    height: auto;
+    width: auto;
+    background-color: #2E236C;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.service-pics-sub{
+    height: 270px;
+    width: 100%;
+    background-color: #C8ACD6;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.service-pic>img{
+    height: 235px;
+    width: 235px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10%;
+}
+.service-type-display{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
