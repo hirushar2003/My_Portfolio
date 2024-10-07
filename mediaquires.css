@@ -275,6 +275,88 @@
     .service-pics-main{
         padding: 0.5rem 0.5rem;
     }
+    .project-cards{
+        display: none;
+    }
+    .project-cards-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        width: 75%;
+    }
+
+    .card-button-input{
+        display: none;
+    }
+
+    .mobile-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        border: 2px solid black;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-size: cover;
+        transition: 1s cubic-bezier(.28,-0.03,0,.99);
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        transform: translateY(30px);
+        transition-delay: .3s;
+        transition: all .3s ease;
+        overflow: hidden;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .card-button-input:checked + .mobile-card{
+        height: 500px;
+    }
+
+    .card-button-input:checked + .card-content>img{
+        opacity: 1 !important;
+        transform: translateX(0) !important;
+    }
+
+    .card-button-input:not(:checked) + .mobile-card {
+        height: 100px; /* Adjust this to your desired minimized height */
+    }
+
+    .card-button-input:not(:checked) + .card-content > img {
+        opacity: 0; /* Hide the image when unchecked */
+        transform: translateX(-100%); /* Move the image off-screen */
+    }
+
+    .card-button-input:not(:checked) + .mobile-card .card-content img {
+        display: none; /* Completely hide the image */
+    }
+
+    .card-content img {
+        transition: all .6s ease;
+    }
+
+    .card-button-input:checked + .mobile-card .card-content img {
+        display: block; /* Show the image */
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 
@@ -351,6 +433,89 @@
 
     .service-pics-sub{
         transition: top;
+    }
+
+    .project-cards{
+        display: none;
+    }
+    .project-cards-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        width: 90%;
+    }
+
+    .card-button-input{
+        display: none;
+    }
+
+    .mobile-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        border: 2px solid black;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-size: cover;
+        transition: 1s cubic-bezier(.28,-0.03,0,.99);
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        transform: translateY(30px);
+        transition-delay: .3s;
+        transition: all .3s ease;
+        overflow: hidden;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .card-button-input:checked + .mobile-card{
+        height: 500px;
+    }
+
+    .card-button-input:checked + .card-content>img{
+        opacity: 1 !important;
+        transform: translateX(0) !important;
+    }
+
+    .card-button-input:not(:checked) + .mobile-card {
+        height: 100px; /* Adjust this to your desired minimized height */
+    }
+
+    .card-button-input:not(:checked) + .card-content > img {
+        opacity: 0; /* Hide the image when unchecked */
+        transform: translateX(-100%); /* Move the image off-screen */
+    }
+
+    .card-button-input:not(:checked) + .mobile-card .card-content img {
+        display: none; /* Completely hide the image */
+    }
+
+    .card-content img {
+        transition: all .6s ease;
+    }
+
+    .card-button-input:checked + .mobile-card .card-content img {
+        display: block; /* Show the image */
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 

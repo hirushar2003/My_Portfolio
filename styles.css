@@ -860,5 +860,8 @@ html, body{
     z-index: 12;
     transform: scale(1.2) translateX(40%);
     transition-duration: 0.5s;
-    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+}
+
+.project-cards-mobile{
+    display: none;
 }
