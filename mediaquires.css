@@ -117,6 +117,41 @@
         padding: 0.8rem 0.8rem;
         margin: 0.5rem ;
     }
+
+    .project-desc>p{
+        width: 90%;
+    }
+
+    .card-1 {
+        margin-right: -20%;
+    }
+
+    .card-2{
+        margin-right: -20%;
+    }
+
+    .card-4{
+        margin-left: -20% ;
+    }
+
+    .card-5{
+        margin-left: -20%;
+    }
+    .card-1:hover{
+        transform: translateX(-20%) scale(1.2);
+    }
+
+    .card-2:hover{
+        transform: translateX(-20%) scale(1.1);
+    }
+
+    .card-4:hover{
+        transform: translateX(20%) scale(1.1);
+    }
+    .card-5:hover{
+        transform: translateX(20%) scale(1.2);
+    }
+
 }
 
 
@@ -312,6 +347,10 @@
     }
     .exp-desc{
         width: 80%;
+    }
+
+    .service-pics-sub{
+        transition: top;
     }
 }
 

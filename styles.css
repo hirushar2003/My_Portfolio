@@ -15,13 +15,13 @@ html, body{
     display: none;
 }
 .desktop-header{
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     height: 15vh;
     width: 100vw;
+    z-index: 1;
 }
 .logo{
     position: relative;
@@ -689,4 +689,176 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*PROJECTS SECTION*/
+#projects{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: auto;
+}
+
+.project-topic{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.project-desc{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.project-desc>p{
+    text-align: right;
+    width: 80%;
+}
+
+.project-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #2E236C;
+    border-radius: 20px;
+    z-index: 1;
+    border: 3px solid black;
+    transition: transform 3s ease;
+    padding: 1rem 1rem;
+    width: 300px;
+    margin-right: -10%;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #2E236C;
+    border-radius: 20px;
+    z-index: 5;
+    border: 3px solid black;
+    transition: transform 3s ease;
+    padding: 1rem 1rem;
+    width: 300px;
+    margin-right: -12%;
+}
+
+.card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #2E236C;
+    border-radius: 20px;
+    z-index: 10;
+    border: 3px solid black;
+    transition: transform 3s ease;
+    padding: 1rem 1rem;
+    width: 300px;
+}
+
+.card-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #2E236C;
+    border-radius: 20px;
+    z-index: 5;
+    border: 3px solid black;
+    transition: transform 3s ease;
+    padding: 1rem 1rem;
+    width: 300px;
+    margin-left: -12%;
+}
+
+.card-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #2E236C;
+    border-radius: 20px;
+    z-index: 1;
+    border: 3px solid black;
+    transition: transform 3s ease;
+    padding: 1rem 1rem;
+    width: 300px;
+    margin-left: -10%;
+}
+
+.card-1>img{
+    height: 200px;
+    width: 200px;
+}
+.card-2>img{
+    height: 250px;
+    width: 250px;
+}
+.card-3>img{
+    height: 300px;
+    width: 300px;
+}
+.card-4>img{
+    height: 250px;
+    width: 250px;
+}
+.card-5>img{
+    height: 200px;
+    width: 200px;
+}
+.card-topic{
+    text-align: center;
+}
+.card-par{
+    text-align: center;
+}
+
+.card-1:hover{
+    z-index: 12;
+    /*transition: transform 2s ease;*/
+    transform: translateX(-40%) scale(1.2);
+    /*transform: scale(1.2);*/
+    transition-duration: 0.5s;
+}
+
+.card-2:hover{
+    z-index: 12;
+    transform: scale(1.1) translateX(-30%);
+    transition-duration: 0.5s;
+}
+
+.card-4:hover{
+    z-index: 12;
+    transform: scale(1.1) translateX(30%);
+    transition-duration: 0.5s;
+}
+
+.card-5:hover{
+    z-index: 12;
+    transform: scale(1.2) translateX(40%);
+    transition-duration: 0.5s;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
 }
