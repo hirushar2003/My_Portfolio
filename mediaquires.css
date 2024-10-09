@@ -534,6 +534,9 @@
     .social{
         scale: 0.9;
     }
+    .social i{
+        scale: 0.8;
+    }
 }
 
 
