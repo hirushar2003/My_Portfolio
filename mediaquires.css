@@ -530,6 +530,10 @@
         opacity: 1;
         transform: translateX(0);
     }
+
+    .social{
+        scale: 0.9;
+    }
 }
 
 
