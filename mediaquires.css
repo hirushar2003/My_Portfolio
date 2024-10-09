@@ -531,11 +531,12 @@
         transform: translateX(0);
     }
 
-    .social{
-        /*scale: 0.9;*/
-    }
-    .social i{
+    .social-inside i{
         scale: 0.8;
+    }
+
+    .social-inside>i:nth-child(4){
+        display: none;
     }
 }
 
