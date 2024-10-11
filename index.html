@@ -42,8 +42,16 @@
     </div>
 
     <nav class="menu-bar">
-        <img src="assets/icons8-menu-bar-100.png" alt="menu-bar">
+        <i class="fa-solid fa-bars"></i>
     </nav>
+
+    <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+    <div class="popup" id="popup">
+        <h2>Popup Title</h2>
+        <p>This is a popup message!</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
 </header>
 
 <section id="hero">
@@ -51,54 +59,27 @@
         <div class="details-inside">
             <label class="text">Hi there ! It's me</label>
             <label class="name">Hirusha</label>
-            <label class="text">A full-stack developer</label>
+            <div class="type-animate">
+                <div class="static-text">I'm a</div>
+                <ul class="dynamic-text">
+                    <li><span>Web Developer</span></li>
+                    <li><span>Software Engineer</span></li>
+                    <li><span>Ux/Ui Designer</span></li>
+                    <li><span>Full-Stack Developer</span></li>
+                </ul>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem consequuntur dicta error,
                 facilis fuga fugiat impedit modi nam necessitatibus,
                 odio optio perspiciatis quae quasi quidem quo tempore ullam voluptatibus?</p>
             <div class="download-button-container">
-                <button type="button" class="btn-download">Download CV</button>
-                <i class="fa-solid fa-download"></i>
+                <button type="button" class="btn-download">Download CV<i class="fa-solid fa-download"></i></button>
             </div>
 
         </div>
     </div>
     
     <div class="my-image">
-        <div class="circle">
-            <img src="assets/profilep.png" alt="my-image">
-        </div>
-    </div>
-
-    <div class="social">
-        <div class="social-inside">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-square-threads"></i>
-            <i class="fa-brands fa-square-x-twitter"></i>
-        </div>
-    </div>
-</section>
-
-<section id="mobile-hero">
-
-    <div class="my-image">
-        <div class="circle">
-            <img src="assets/profilep.png" alt="my-image">
-        </div>
-    </div>
-
-    <div class="details">
-        <div class="details-inside">
-            <label class="text">Hi there ! It's me</label>
-            <label class="name">Hirusha</label>
-            <label class="text">A full-stack developer</label>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem consequuntur dicta error,
-                facilis fuga fugiat impedit modi nam necessitatibus,
-                odio optio perspiciatis quae quasi quidem quo tempore ullam voluptatibus?</p>
-            <button type="button" class="btn-download">Download CV<img src="assets/icons8-download-100.png"></button>
-        </div>
+        <img class="fr-img" src="assets/profilep1.png">
     </div>
 
     <div class="social">
@@ -804,5 +785,6 @@
 
 <!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
