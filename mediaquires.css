@@ -672,6 +672,9 @@
         width: 30px;
     }
 
+    .my-image{
+        height: fit-content;
+    }
     .text{
         font-size: 15px;
     }
