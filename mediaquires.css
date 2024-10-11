@@ -439,6 +439,10 @@
         height: fit-content;
     }
 
+    .fr-img{
+        scale: 1;
+    }
+
     .details-inside>p{
         width: 100%;
     }
@@ -674,6 +678,9 @@
 
     .my-image{
         height: fit-content;
+    }
+    .fr-img{
+        scale: 1;
     }
     .text{
         font-size: 15px;
