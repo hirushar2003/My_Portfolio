@@ -1,10 +1,4 @@
 @media all and (max-width: 1100px){
-    .my-image{
-        order: -1;
-    }
-    .details{
-        order: 0;
-    }
     .text{
         font-size: 25px;
     }
@@ -44,6 +38,7 @@
     .social{
         scale: .9;
     }
+
     .programming-skills-stages{
 
     }
