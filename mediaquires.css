@@ -38,7 +38,12 @@
     .social{
         scale: .9;
     }
-
+    .stage-description p{
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 2.3rem;
+        white-space: normal;
+    }
     .programming-skills-stages{
 
     }
