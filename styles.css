@@ -871,8 +871,10 @@ body{
     font-weight: 400;
     font-style: normal;
     color: #747474;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
+
+/*SERVICES - SECTION */
 
 #services{
     display: flex;
@@ -893,34 +895,57 @@ body{
     gap: 1rem;
 }
 
-.service-pics-main{
-    height: auto;
-    width: auto;
-    background-color: #2E236C;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+.service-top h1{
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
 }
 
-.service-pics-sub{
-    height: 270px;
-    width: 100%;
-    background-color: white;
-    border-radius: 90px;
+.service-top p{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #747474;
+    font-size: 1.1rem;
+}
+.services-pics-main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 1rem;
+    justify-content: center;
+    width: 90%;
+    height: 300px;
+    border: solid .5rem white;
+    overflow-y: hidden; /* Hide overflowing content */
+    position: relative;
 }
 
-.service-pic>img{
-    height: 235px;
-    width: 235px;
-    padding: 0.5rem 0.5rem;
-    border-radius: 10%;
+.services-scroller {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align images to start */
+    flex-direction: row;
+    gap: .5rem;
+    width: max-content; /* Ensure it takes as much space as the images */
+    animation: scrollLeftRight 12s linear infinite; /* Add scrolling animation */
+}
+
+.services-pics-inside img {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+}
+@keyframes scrollLeftRight {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(calc(-100% + 90vw)); /* Adjust based on screen width */
+    }
+    100% {
+        transform: translateX(0); /* Reset to the original position */
+    }
 }
 .service-type-display{
     width: 90%;
@@ -947,6 +972,10 @@ body{
     align-items: center;
     justify-content: flex-end;
     width: 90%;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
 }
 
 .project-desc{
@@ -959,6 +988,11 @@ body{
 .project-desc>p{
     text-align: right;
     width: 80%;
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #747474;
+    font-size: 1.1rem;
 }
 
 .project-cards{
@@ -968,6 +1002,7 @@ body{
     width: 90%;
     height: auto;
     justify-content: center;
+    cursor: pointer;
 }
 
 .card-1{
@@ -976,7 +1011,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #2E236C;
+    background-color: #747474;
     border-radius: 20px;
     z-index: 1;
     border: 3px solid black;
@@ -991,7 +1026,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #2E236C;
+    background-color: #747474;
     border-radius: 20px;
     z-index: 5;
     border: 3px solid black;
@@ -1007,13 +1042,14 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #2E236C;
+    background-color: #747474;
     border-radius: 20px;
     z-index: 10;
     border: 3px solid black;
     transition: transform 3s ease;
     padding: 1rem 1rem;
     width: 300px;
+    backdrop-filter: blur(50px);
 }
 
 .card-4{
@@ -1022,7 +1058,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #2E236C;
+    background-color: #747474;
     border-radius: 20px;
     z-index: 5;
     border: 3px solid black;
@@ -1038,7 +1074,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #2E236C;
+    background-color: #747474;
     border-radius: 20px;
     z-index: 1;
     border: 3px solid black;
@@ -1046,6 +1082,22 @@ body{
     padding: 1rem 1rem;
     width: 300px;
     margin-left: -10%;
+}
+
+.project-cards p{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffff;
+    font-size: .9rem;
+}
+
+.project-cards label{
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffff;
+    font-size: 1rem;
 }
 
 .card-1>img{
