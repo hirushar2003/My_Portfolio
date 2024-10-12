@@ -500,7 +500,8 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 .skill-topic{
     width: 100%;
@@ -508,6 +509,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Jua", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #7289da;
 }
 
 .skill-main-sec{
@@ -528,6 +533,18 @@ body{
     gap: 2rem;
 }
 
+.programming-skills-topic{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
+}
+.programming-skills-topic h3{
+    margin: 0;
+}
 .ex-skills{
     width: 50%;
     display: flex;
@@ -733,6 +750,9 @@ body{
     /*clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%);*/
 }
 
+/*EXPERIENCE - SECTION*/
+
+
 #experience{
     display: flex;
     flex-direction: column;
@@ -744,6 +764,10 @@ body{
 
 .exp-topic{
     height: fit-content;
+    font-family: "Jua", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #7289da;
 }
 
 .exp-main-sec{
@@ -818,11 +842,16 @@ body{
     height: 225px;
     width: 225px;
     border-radius: 100px;
-    background-color: #2E236C;
+    background-color: #747474;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.2rem;
 }
 
 .exp-desc{
@@ -833,11 +862,16 @@ body{
 }
 
 .exp-desc-details{
-    width: 60%;
+    width: 85%;
 }
 
 .exp-desc-details>p{
     text-align: justify;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #747474;
+    font-size: 1.2rem;
 }
 
 #services{
