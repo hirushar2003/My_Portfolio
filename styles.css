@@ -919,6 +919,7 @@ body{
     align-items: center;
     padding: 1rem;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .service-pics-sub{
