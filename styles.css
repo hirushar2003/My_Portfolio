@@ -909,44 +909,38 @@ body{
     color: #747474;
     font-size: 1.1rem;
 }
-.services-pics-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
+.service-pics-main{
     height: 300px;
-    border: solid .5rem white;
-    overflow-y: hidden; /* Hide overflowing content */
-    position: relative;
-}
-
-.services-scroller {
+    width: 90%;
+    background-color: #747474;
+    border-radius: 100px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start; /* Align images to start */
-    flex-direction: row;
-    gap: .5rem;
-    width: max-content; /* Ensure it takes as much space as the images */
-    animation: scrollLeftRight 12s linear infinite; /* Add scrolling animation */
+    padding: 1rem;
+    flex-wrap: wrap;
 }
 
-.services-pics-inside img {
-    height: 275px;
-    width: 275px;
-    border-radius: 50%;
+.service-pics-sub{
+    height: 270px;
+    width: 100%;
+    background-color: #272727;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
-@keyframes scrollLeftRight {
-    0% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(calc(-100% + 90vw)); /* Adjust based on screen width */
-    }
-    100% {
-        transform: translateX(0); /* Reset to the original position */
-    }
+
+.service-pic>img{
+    height: 235px;
+    width: 235px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10%;
 }
+
 .service-type-display{
     width: 90%;
     height: fit-content;
