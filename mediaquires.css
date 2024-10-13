@@ -614,6 +614,14 @@
         gap: 1rem;
         width: 90%;
     }
+    .project-desc p{
+        width: 100%;
+        text-align: justify;
+        font-size: .9rem;
+    }
+    .service-top p{
+        font-size: .9rem;
+    }
 
     .card-button-input{
         display: none;
@@ -684,6 +692,7 @@
     .social-inside>i:nth-child(4){
         display: none;
     }
+
 }
 
 
