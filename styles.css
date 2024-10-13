@@ -1477,21 +1477,26 @@ label.star:before {
     justify-content: center;
     gap: 1rem;
     width: 100%;
+    color: white;
 }
 
 .contact-topic{
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin: 0;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
 }
 
 .contact-desc{
     display: flex;
     align-items: center;
     width: 90%;
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin: 0;
     flex-direction: row;
     height: fit-content;
@@ -1500,6 +1505,11 @@ label.star:before {
 .contact-desc>p{
     height: fit-content;
     margin: 0;
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #747474;
+    font-size: 1.1rem;
 }
 
 .contact-real{
@@ -1507,6 +1517,13 @@ label.star:before {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+}
+
+.contact-real h3{
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
 }
 
 .inquiry{
@@ -1531,13 +1548,37 @@ label.star:before {
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
 .inq-form-inside{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+}
+
+.inq-form-inside label{
+    width: 90%;
+    margin: 0;
+    padding-left: .3rem;
+}
+
+.inquiry-form input{
+    width: 90%;
+    height: 3rem;
+    border-radius: 15px;
+    border: 0;
+    padding:.5rem .5rem;
+    background-color: #272727;
+    box-shadow: 0 0 10px #747474;
+    margin: .5rem .5rem;
+}
+
+.inq-form-inside input::placeholder {
+    text-align: left;
+    color: #747474;
 }
 
 .contact-details{
@@ -1563,6 +1604,11 @@ label.star:before {
     justify-content: center;
     gap: 1rem;
     width: 100%;
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #747474;
+    font-size: 1.1rem;
 }
 .con-type{
     display: flex;
@@ -1572,12 +1618,12 @@ label.star:before {
     width: 100%;
     gap: 1rem;
 }
-
+.con-type label {
+    margin: 0;
+}
 .con-image{
     height: 50px;
     width: 50px;
-    border-radius: 100%;
-    background-color: #C8ACD6;
     align-items: center;
     justify-content: center;
 }
@@ -1585,4 +1631,26 @@ label.star:before {
 .con-image>img{
     height: 50px;
     width: 50px;
+}
+
+.con-way{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.submit-button{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.submit-button button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0;
+    border: 0;
+    background-color: #747474;
 }

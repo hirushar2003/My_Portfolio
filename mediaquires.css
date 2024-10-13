@@ -216,6 +216,14 @@
     .r-info {
         font-size: .9rem;
     }
+    .contact-desc{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .contact-desc p{
+        font-size: 1rem;
+    }
 }
 
 
@@ -753,6 +761,35 @@
         width: 100%;
         gap: .5rem;
     }
+    .contact-real{
+        flex-direction: column;
+    }
+    .inquiry{
+        width: 100%;
+    }
+
+    .con-detail-topic{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-details{
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .con-detail-methods{
+        flex-direction: row;
+        margin: 1rem;
+    }
+
+    .con-way{
+        display: none;
+    }
+    .con-type{
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
@@ -977,6 +1014,16 @@
 
     .rr-submit-rating{
         scale: .8;
+    }
+    .con-type img{
+        height: 35px;
+        width: 35px;
+    }
+
+    .con-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
