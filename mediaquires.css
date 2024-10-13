@@ -197,6 +197,25 @@
         transform: translateX(20%) scale(1.2);
     }
 
+    .rr-card{
+        width: 98%;
+    }
+    .rr-form-inside{
+        scale: .9;
+    }
+    .rr-submit-rating{
+        scale: .9;
+    }
+    .rr-desc{
+        font-size: 1rem;
+    }
+    .r-comment{
+        font-size: .9rem;
+    }
+
+    .r-info {
+        font-size: .9rem;
+    }
 }
 
 
@@ -459,6 +478,25 @@
         margin: 0;
         padding: 0;
     }
+
+    .rr-sec{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rr-panel{
+        width: 90%;
+    }
+    .rr-card{
+        width: 98%;
+    }
+    .rr-submit{
+        width: 100%;
+    }
+    .rr-submit-topic{
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
 }
 
 
@@ -692,7 +730,29 @@
     .social-inside>i:nth-child(4){
         display: none;
     }
+    .rr-desc p{
+        font-size: .8rem;
+        text-align: justify;
+        width: 100%;
+    }
 
+    .rr-panel{
+        scale: 1;
+    }
+    .r-comment p{
+        font-size: .8rem;
+    }
+    .r-info{
+        font-size: .8rem;
+    }
+    label.star{
+        font-size: 27px;
+    }
+    .rr-submit-form{
+        scale: 1;
+        width: 100%;
+        gap: .5rem;
+    }
 }
 
 
@@ -902,6 +962,21 @@
         flex-direction: column;
         width: 50%;
         padding: 0.5rem 0.5rem;
+    }
+
+    .rr-sec{
+        width: 100%;
+    }
+
+    .rr-desc p{
+        font-size: .7rem;
+    }
+    .rr-submit-form{
+        scale: .9;
+    }
+
+    .rr-submit-rating{
+        scale: .8;
     }
 }
 
