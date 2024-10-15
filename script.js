@@ -140,3 +140,33 @@ ScrollReveal().reveal('.diploma-level .stage-image', {
     distance: '300px',
     delay:0
 });
+
+ScrollReveal().reveal('.exp-upper-left', {
+    origin:'top',
+    distance: '300px',
+    delay:0
+});
+
+ScrollReveal().reveal('.exp-upper-right', {
+    origin:'right',
+    distance: '300px',
+    delay:0
+});
+
+ScrollReveal().reveal('.exp-lower-right', {
+    origin:'bottom',
+    distance: '300px',
+    delay:0
+});
+
+ScrollReveal().reveal('.exp-lower-left', {
+    origin:'left',
+    distance: '300px',
+    delay:0
+});
+
+ScrollReveal().reveal('.exp-desc', {
+    origin:'right',
+    distance: '300px',
+    delay:0
+});
