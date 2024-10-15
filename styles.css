@@ -26,8 +26,17 @@ body{
     justify-content: space-evenly;
     align-items: center;
     height: 15vh;
-    width: 100vw;
+    width: 90vw;
     z-index: 1;
+    position: fixed;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 50px;
+    top: 0; /* Ensures it stays at the top */
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Centers the header horizontally */
+    transition: transform 0.4s ease-in-out;
 }
 .logo{
     position: relative;
@@ -82,8 +91,8 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 2rem;
     height: auto;
+    margin-top: 15vh;
 }
 
 .details{
@@ -1648,4 +1657,205 @@ label.star:before {
     margin: 0;
     border: 0;
     background-color: #747474;
+}
+
+#assignments{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.assignment-topic{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
+}
+
+.assignment-main-desc{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #747474;
+    font-size: 1.1rem;
+}
+
+.assignment-card-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 1.3rem;
+    transition: 3s ease;
+    height: 450px;
+}
+
+.assignment-card{
+    height: 400px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.assignment-card:hover{
+    transform: scale(1.1);
+}
+
+.assignment-card-upper-part{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.assignment-card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 95%;
+}
+
+.assignment-card-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 95%;
+    border-radius: 25px;
+}
+.assignment-card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.assignment-card-number{
+    height: 35%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.assignment-card-module{
+    height: 65%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.assignment-card-lower-part {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    border-radius: 50px 0 50px 50px;
+    background-color: #747474;
+    gap: .5rem;
+    padding: .5rem 0;
+}
+
+.assignment-card-number-circle{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #747474;
+    font-family: "Jua", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
+    font-size: 1.1rem;
+}
+
+.assignment-card-number-circle h3{
+    margin: 0;
+}
+
+.assignment-card-module-name{
+    height: 100%;
+    width: 65px;
+    border-radius: 25px;
+    background-color: #747474;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
+    white-space: pre-line;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-direction: row;
+}
+
+.assignment-name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jua", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7289da;
+}
+
+.assignment-name h3{
+    margin: 0;
+}
+
+.assignment-description{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.assignment-description p{
+    width: 95%;
+    text-align: justify;
+    margin: 0;
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: .9rem;
+}
+
+.assignment-card-icons{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    align-items: center;
+    justify-content: flex-end;
 }

@@ -1,9 +1,85 @@
-function openPopup() {
-    document.getElementById('popup').style.display = 'block'; // Show the popup
-    document.getElementById('overlay').style.display = 'block'; // Show the overlay
-}
+// HEADER-SCROLLING
+document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector('.desktop-header');
+    let lastScrollPosition = window.pageYOffset;
 
-function closePopup() {
-    document.getElementById('popup').style.display = 'none'; // Hide the popup
-    document.getElementById('overlay').style.display = 'none'; // Hide the overlay
-}
+    window.addEventListener('scroll', function () {
+        let currentScrollPosition = window.pageYOffset;
+
+        if (currentScrollPosition > lastScrollPosition) {
+            // User is scrolling down - hide the header
+            header.style.transform = 'translateY(-100%)';
+        } else {
+            // User is scrolling up - show the header
+            header.style.transform = 'translateY(0)';
+        }
+
+        // Update the last scroll position
+        lastScrollPosition = currentScrollPosition;
+    });
+});
+
+// ASSIGNMENT-SCROLL
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.querySelector('.assignment-card-container');
+
+    // Function to scroll the container automatically
+    function autoScroll() {
+        const scrollAmount = 1; // Pixels to scroll each step
+        container.scrollLeft += scrollAmount;
+
+        // If scrolled to the right corner, reset to the left
+        if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
+            container.scrollLeft = 0; // Loop back to the start
+        }
+    }
+
+    // Start auto-scroll after page load
+    setInterval(autoScroll, 20); // Adjust interval for smoothness
+});
+
+// ASSIGNMENT-SCROLL
+
+
+// SCROLL-REVEAL
+
+ScrollReveal({
+   reset:true,
+    distance:'60px',
+    duration:2500,
+    delay:400
+});
+
+ScrollReveal().reveal('.logo-letters',{
+    origin:'left'
+});
+
+ScrollReveal().reveal('.logo img', {
+   origin: 'right'
+});
+
+ScrollReveal().reveal('.social', {
+    origin:'left',
+    distance: '60px'
+});
+
+ScrollReveal().reveal('.social-inside i', {
+   origin:'right',
+    distance: '60px',
+    interval:200
+});
+
+ScrollReveal().reveal('.my-image', {
+    origin:'left',
+    distance: '60px',
+});
+
+ScrollReveal().reveal('.my-image img', {
+    origin:'top',
+    distance: '300px',
+});
+
+ScrollReveal().reveal('.details', {
+    origin:'left',
+    distance: '300px',
+});
