@@ -154,13 +154,13 @@ ScrollReveal().reveal('.exp-upper-right', {
 });
 
 ScrollReveal().reveal('.exp-lower-right', {
-    origin:'bottom',
+    origin:'left',
     distance: '300px',
     delay:0
 });
 
 ScrollReveal().reveal('.exp-lower-left', {
-    origin:'left',
+    origin:'bottom',
     distance: '300px',
     delay:0
 });
