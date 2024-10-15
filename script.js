@@ -82,4 +82,61 @@ ScrollReveal().reveal('.my-image img', {
 ScrollReveal().reveal('.details', {
     origin:'left',
     distance: '300px',
+    interval: 200
+});
+
+
+ScrollReveal().reveal('h1', {
+    origin:'bottom',
+    distance: '60px',
+});
+
+ScrollReveal().reveal('.basic-sec-topic h3', {
+    origin:'left',
+    distance: '60px',
+});
+
+ScrollReveal().reveal('.edu-sec-topic h3', {
+    origin:'right',
+    distance: '60px',
+});
+
+ScrollReveal().reveal('.pic-bas', {
+    origin:'left',
+    distance: '300px',
+    delay: 0
+});
+
+ScrollReveal().reveal('.pic-bas-boy-pic', {
+    origin:'top',
+    distance: '300px',
+});
+
+ScrollReveal().reveal('.points label ,ul', {
+    origin:'right',
+    distance: '300px',
+    interval:200
+});
+
+ScrollReveal().reveal('.ordinary-level .stage-description label , .ordinary-level .stage-description p, .advanced-level .stage-description label, .advanced-level .stage-description p, .diploma-level .stage-description label, .diploma-level .stage-description p', {
+    origin:'right',
+    distance: '150px',
+    interval:200,
+    delay:0
+});
+
+ScrollReveal().reveal('.ordinary-level .stage-image', {
+    origin:'top',
+    distance: '300px',
+});
+
+ScrollReveal().reveal('.advanced-level .stage-image', {
+    origin:'left',
+    distance: '300px',
+});
+
+ScrollReveal().reveal('.diploma-level .stage-image', {
+    origin:'bottom',
+    distance: '300px',
+    delay:0
 });
