@@ -10,6 +10,11 @@
 
 body{
     background-color: #272727;
+    overflow: auto !important;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -218,6 +223,9 @@ body{
 .btn-download:hover{
     scale: 1.1;
 }
+.download-button-container a:hover{
+    text-decoration: none;
+}
 
 .my-image{
     width: 45%;
@@ -272,10 +280,13 @@ body{
 }
 
 .social-inside i:hover {
-    transform: scale(1.2) rotate(30deg); /* Increase the size on hover */
-    color: #7289da; /* Change color on hover */
+    color: #7289da;
 }
 
+.social-inside a:hover {
+    text-decoration: none; /* Still no underline on hover */
+    transform: scale(1.2) rotate(30deg);
+}
 .download-button-container{
     display: flex;
     align-items: center;
@@ -468,7 +479,6 @@ body{
 }
 
 .stage-image img:hover{
-    scale: .9;
     box-shadow: 0 0 20px #7289da;
     transition: 1s ease;
     transform:  rotate(30deg);

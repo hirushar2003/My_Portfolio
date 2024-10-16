@@ -112,7 +112,7 @@ ScrollReveal().reveal('.pic-bas-boy-pic', {
     distance: '300px',
 });
 
-ScrollReveal().reveal('.points label ,ul', {
+ScrollReveal().reveal('.points label , .points ul', {
     origin:'right',
     distance: '300px',
     interval:200
