@@ -170,3 +170,57 @@ ScrollReveal().reveal('.exp-desc', {
     distance: '300px',
     delay:0
 });
+
+ScrollReveal().reveal('.service-top p', {
+    origin:'left',
+    distance: '300px',
+    delay:0
+});
+
+ScrollReveal().reveal('.service-pics-main', {
+    origin:'bottom',
+    distance: '300px',
+    delay:0
+});
+
+ScrollReveal().reveal('.project-desc p', {
+    origin:'right',
+    distance: '300px',
+    delay:0
+});
+
+// ScrollReveal().reveal('.card-1', {
+//     origin:'left',
+//     distance: '500px',
+//     delay:0
+// });
+//
+// ScrollReveal().reveal('.card-5', {
+//     origin:'right',
+//     distance: '500px',
+//     delay:0
+// });
+//
+// ScrollReveal().reveal('.card-2', {
+//     origin:'bottom',
+//     distance: '500px',
+//     delay:0
+// });
+//
+// ScrollReveal().reveal('.card-4', {
+//     origin:'top',
+//     distance: '500px',
+//     delay:0
+// });
+
+ScrollReveal().reveal('.assignment-main-desc', {
+    origin:'right',
+    distance: '300px',
+    delay:0
+});
+
+ScrollReveal().reveal('.rr-desc', {
+    origin:'left',
+    distance: '300px',
+    delay:0
+});
