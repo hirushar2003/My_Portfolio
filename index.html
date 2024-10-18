@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Hirusha Vishmika">
+    <meta name="keyword" content="HTML, CSS, JavaScript">
+    <meta name="description" content="HTML, CSS, JavaScript">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0" >
     <title>My portfolio 0.4</title>
 
@@ -44,17 +47,16 @@
         </div>
     </div>
 
-    <nav class="menu-bar">
+    <nav class="primary" onclick="window.dialog.showModal();">
         <i class="fa-solid fa-bars"></i>
+
+        <dialog id="dialog">
+            <h2>Hello.</h2>
+            <p>A CSS-only modal based on the <a href="https://developer.mozilla.org/es/docs/Web/CSS/::backdrop" target="_blank">::backdrop</a> pseudo-class. Hope you find it helpful.</p>
+            <p>You can also change the styles of the <code>::backdrop</code> from the CSS.</p>
+            <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+        </dialog>
     </nav>
-
-    <div class="overlay" id="overlay" onclick="closePopup()"></div>
-
-    <div class="popup" id="popup">
-        <h2>Popup Title</h2>
-        <p>This is a popup message!</p>
-        <button onclick="closePopup()">Close</button>
-    </div>
 </header>
 
 <section id="hero">
@@ -587,7 +589,7 @@
             </div>
             <div class="assignment-card-lower-part">
                 <div class="assignment-name">
-                    <h3>Connect four game</h3>
+                    <h3>Assignment 1</h3>
                 </div>
                 <div class="assignment-description">
                     <p>This assignment was given as the final project of OOP module. This game is created based on OOP Concepts.</p>
@@ -612,7 +614,7 @@
                         </div>
                     </div>
                     <div class="assignment-card-module">
-                        <div class="assignment-card-module-name">
+                        <div class="assignment-card-module-name">Mid
 
                         </div>
                     </div>
@@ -623,7 +625,7 @@
             </div>
             <div class="assignment-card-lower-part">
                 <div class="assignment-name">
-                    <h3>Assignment Name</h3>
+                    <h3>Assignment 2</h3>
                 </div>
                 <div class="assignment-description">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda at beatae eius ex hic, id porro reprehenderit similique soluta! A deleniti digni?</p>
@@ -645,7 +647,7 @@
                         </div>
                     </div>
                     <div class="assignment-card-module">
-                        <div class="assignment-card-module-name">
+                        <div class="assignment-card-module-name">Mid
 
                         </div>
                     </div>
@@ -656,7 +658,7 @@
             </div>
             <div class="assignment-card-lower-part">
                 <div class="assignment-name">
-                    <h3>Assignment Name</h3>
+                    <h3>Assignment 3</h3>
                 </div>
                 <div class="assignment-description">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda at beatae eius ex hic, id porro reprehenderit similique soluta! A deleniti digni?</p>
@@ -678,7 +680,7 @@
                         </div>
                     </div>
                     <div class="assignment-card-module">
-                        <div class="assignment-card-module-name">
+                        <div class="assignment-card-module-name">Hard
 
                         </div>
                     </div>
@@ -689,7 +691,7 @@
             </div>
             <div class="assignment-card-lower-part">
                 <div class="assignment-name">
-                    <h3>Assignment Name</h3>
+                    <h3>Assignment 4</h3>
                 </div>
                 <div class="assignment-description">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam assumenda at beatae eius ex hic, id porro reprehenderit similique soluta! A deleniti digni?</p>

@@ -547,29 +547,6 @@
         width: 100%;
     }
 
-    .popup {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        left: 50%; /* Center the popup */
-        top: 50%; /* Center the popup */
-        transform: translate(-50%, -50%); /* Translate to center */
-        background-color: white; /* Popup background color */
-        padding: 20px; /* Padding inside the popup */
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Popup shadow */
-        z-index: 1000; /* Ensure it sits above other elements */
-    }
-
-    .overlay {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        background-color: rgba(0, 0, 0, 0.7); /* Black background with opacity */
-        z-index: 999; /* Behind the popup */
-    }
-
     .mobile-header{
         position: relative;
         display: flex;

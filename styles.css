@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Jua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Jua&display=swap');
 *{
     margin: 0;
@@ -32,7 +33,6 @@ html{
     align-items: center;
     height: 15vh;
     width: 90vw;
-    z-index: 1;
     position: fixed;
     background-color: transparent;
     backdrop-filter: blur(30px);
@@ -42,6 +42,7 @@ html{
     right: 0;
     margin: 0 auto; /* Centers the header horizontally */
     transition: transform 0.4s ease-in-out;
+    z-index: 100;
 }
 .logo{
     position: relative;
@@ -84,6 +85,98 @@ html{
     font-weight: 800;
     color: #747474;
 }
+
+:root {
+    --vs-primary: 29 92 255;
+}
+
+/*Dialog Styles*/
+dialog {
+    padding: 1rem 3rem;
+    background: white;
+    max-width: 400px;
+    padding-top: 2rem;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%);
+    animation: fadeIn 1s ease both;
+    &::backdrop {
+        animation: fadeIn 1s ease both;
+        background: rgb(255 255 255 / 40%);
+        z-index: 2;
+        backdrop-filter: blur(20px);
+    }
+    .x {
+        filter: grayscale(1);
+        border: none;
+        background: none;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        transition: ease filter, transform 0.3s;
+        cursor: pointer;
+        transform-origin: center;
+        &:hover {
+            filter: grayscale(0);
+            transform: scale(1.1);
+        }
+    }
+    h2 {
+        font-weight: 600;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+        padding: 0.5rem 0;
+        a {
+            &:visited {
+                color: rgb(var(--vs-primary));
+            }
+        }
+    }
+}
+
+/*General Styles*/
+/*body {*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    font-family: Poppins, sans-serif;*/
+/*    background: url(https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80)*/
+/*    no-repeat center center;*/
+/*    background-size: cover;*/
+/*}*/
+.primary {
+    display: inline-block;
+    color: #fff !important;
+    padding: 13px 25px;
+    border-radius: 17px;
+    transition: background-color 0.1s ease;
+    box-sizing: border-box;
+    transition: all 0.25s ease;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    /*box-shadow: 0 10px 20px -10px rgb(var(--vs-primary) / 50%);*/
+    &:hover {
+        /*box-shadow: 0 20px 20px -10px rgb(var(--vs-primary) / 50%);*/
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 
 /*Hero Section*/
 #mobile-hero{
@@ -671,7 +764,8 @@ html{
 .data-management-sub-circle{
     height: 220px;
     width: 220px;
-    background-color: white;
+    background-color: #272727;
+    color: white;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -700,7 +794,8 @@ html{
 .communication-sub-circle{
     height: 220px;
     width: 220px;
-    background-color: white;
+    background-color: #272727;
+    color: white;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -730,7 +825,8 @@ html{
 .risk-management-sub-circle{
     height: 220px;
     width: 220px;
-    background-color: white;
+    background-color: #272727;
+    color: white;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -760,7 +856,8 @@ html{
 .logic-handling-sub-circle{
     height: 220px;
     width: 220px;
-    background-color: white;
+    background-color: #272727;
+    color: white;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -1714,9 +1811,9 @@ label.star:before {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     overflow-x: scroll;
-    gap: 1.1rem;
+    gap: 1.5rem;
     transition: 3s ease;
     height: 450px;
 }
@@ -1724,6 +1821,7 @@ label.star:before {
 .assignment-card{
     height: 400px;
     min-width: 300px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
