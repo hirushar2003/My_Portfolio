@@ -85,7 +85,6 @@ html{
     color: #747474;
 }
 
-
 /*Hero Section*/
 #mobile-hero{
     display: none;
@@ -1064,6 +1063,7 @@ html{
     padding: 1rem 1rem;
     width: 300px;
     backdrop-filter: blur(50px);
+    min-height: 475px;
 }
 
 .card-4{
@@ -1102,8 +1102,8 @@ html{
     font-family: "Inria Sans", serif;
     font-weight: 400;
     font-style: normal;
-    color: #ffff;
-    font-size: .9rem;
+    color: #000000;
+    font-size: .8rem;
 }
 
 .project-cards label{
@@ -1117,22 +1117,27 @@ html{
 .card-1>img{
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 .card-2>img{
     height: 250px;
     width: 250px;
+    border-radius: 30px;
 }
 .card-3>img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 275px;
+    border-radius: 30px;
 }
 .card-4>img{
     height: 250px;
     width: 250px;
+    border-radius: 30px;
 }
 .card-5>img{
     height: 200px;
     width: 200px;
+    border-radius: 30px;
 }
 .card-topic{
     text-align: center;
@@ -1711,7 +1716,7 @@ label.star:before {
     align-items: center;
     justify-content: flex-start;
     overflow-x: scroll;
-    gap: 1.3rem;
+    gap: 1.1rem;
     transition: 3s ease;
     height: 450px;
 }
